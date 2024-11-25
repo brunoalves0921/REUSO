@@ -1,0 +1,7 @@
+[package]
+name = "projeto02"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+projeto01 = { path = "../projeto01" }
