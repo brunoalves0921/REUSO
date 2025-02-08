@@ -1,7 +1,7 @@
 # Framework Simples em Java
 
 Este é um framework simples para gerenciar entidades genéricas, permitindo operações CRUD (Create, Read, Update, Delete).  
-A implementação usa **Java + Gradle**, aplicando conceitos de **POO, Generics** e boas práticas de desenvolvimento.
+A implementação usa **Java + Gradle**, aplicando conceitos de **POO, Generics**.
 
 ---
 

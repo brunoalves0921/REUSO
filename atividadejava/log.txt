@@ -1,0 +1,108 @@
+bruno@Bruno:/mnt/c/Users/brunoPC/Documents/Python/REUSO/atividadejava$ java -jar build/libs/FrameworkAtividade-1.0.0.jar
+
+=== MENU ===
+1 - Cadastrar Produto
+2 - Listar Produtos
+3 - Buscar Produto por ID
+4 - Atualizar Produto
+5 - Remover Produto
+6 - Sair
+Escolha uma opção: 1
+Nome do produto: produto1
+Preço do produto: 200
+Produto cadastrado com sucesso! ID: 1
+
+=== MENU ===
+1 - Cadastrar Produto
+2 - Listar Produtos
+3 - Buscar Produto por ID
+4 - Atualizar Produto
+5 - Remover Produto
+6 - Sair
+Escolha uma opção: 1
+Nome do produto: produto2
+Preço do produto: 150
+Produto cadastrado com sucesso! ID: 2
+
+=== MENU ===
+1 - Cadastrar Produto
+2 - Listar Produtos
+3 - Buscar Produto por ID
+4 - Atualizar Produto
+5 - Remover Produto
+6 - Sair
+Escolha uma opção: 2
+
+Lista de Produtos:
+ID: 1 | Nome: produto1 | Preço: R$200.0
+ID: 2 | Nome: produto2 | Preço: R$150.0
+
+=== MENU ===
+1 - Cadastrar Produto
+2 - Listar Produtos
+3 - Buscar Produto por ID
+4 - Atualizar Produto
+5 - Remover Produto
+6 - Sair
+Escolha uma opção: 3
+Digite o ID do produto: 1
+Produto encontrado: Produto{id=1, nome='produto1', preco=200.0}
+
+=== MENU ===
+1 - Cadastrar Produto
+2 - Listar Produtos
+3 - Buscar Produto por ID
+4 - Atualizar Produto
+5 - Remover Produto
+6 - Sair
+Escolha uma opção: 4
+Digite o ID do produto a ser atualizado: 1
+Novo nome do produto: pruduto3
+Novo preço do produto: 250
+Produto atualizado com sucesso!
+
+=== MENU ===
+1 - Cadastrar Produto
+2 - Listar Produtos
+3 - Buscar Produto por ID
+4 - Atualizar Produto
+5 - Remover Produto
+6 - Sair
+Escolha uma opção: 2
+
+Lista de Produtos:
+ID: 1 | Nome: pruduto3 | Preço: R$250.0
+ID: 2 | Nome: produto2 | Preço: R$150.0
+
+=== MENU ===
+1 - Cadastrar Produto
+2 - Listar Produtos
+3 - Buscar Produto por ID
+4 - Atualizar Produto
+5 - Remover Produto
+6 - Sair
+Escolha uma opção: 5
+Digite o ID do produto a ser removido: 1
+Produto removido com sucesso!
+
+=== MENU ===
+1 - Cadastrar Produto
+2 - Listar Produtos
+3 - Buscar Produto por ID
+4 - Atualizar Produto
+5 - Remover Produto
+6 - Sair
+Escolha uma opção: 2
+
+Lista de Produtos:
+ID: 2 | Nome: produto2 | Preço: R$150.0
+
+=== MENU ===
+1 - Cadastrar Produto
+2 - Listar Produtos
+3 - Buscar Produto por ID
+4 - Atualizar Produto
+5 - Remover Produto
+6 - Sair
+Escolha uma opção: 6
+Saindo...
