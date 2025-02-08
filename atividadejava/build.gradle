@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+group = 'me.bruno.framework'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Dependências opcionais podem ser adicionadas aqui, se necessário
+}
+
+application {
+    mainClass = 'me.bruno.framework.Main'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'me.bruno.framework.Main'
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
